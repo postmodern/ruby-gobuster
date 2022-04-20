@@ -1,0 +1,27 @@
+name: ruby-gobuster
+summary: A Ruby interface to gobuster.
+description:
+  A Ruby interface to gobuster, a tool used to bruteforce URIs, DNS, VHosts, S3.
+
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: https://github.com/postmodern/ruby-gobuster#readme
+has_yard: true
+
+metadata:
+  documentation_uri: https://rubydoc.info/gems/ruby-gobuster
+  source_code_uri:   https://github.com/postmodern/ruby-gobuster
+  bug_tracker_uri:   https://github.com/postmodern/ruby-gobuster/issues
+  changelog_uri:     https://github.com/postmodern/ruby-gobuster/blob/master/ChangeLog.md
+  rubygems_mfa_required: 'true'
+
+required_ruby_version: ">= 2.0.0"
+
+requirements: gobuster >= 3.1.0
+
+dependencies:
+  command_mapper: ~> 0.2
+
+development_dependencies:
+  bundler: ~> 2.0
