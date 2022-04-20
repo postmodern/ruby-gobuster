@@ -20,12 +20,12 @@ A Ruby interface to [gobuster], a tool used to bruteforce URIs, DNS, VHosts, S3.
 
 ## Examples
 
-Run `gobuster dir -u https://example.com --wordlist wordlist.txt` from Ruby:
+Run `gobuster --wordlist /path/to/wordlist.txt dir -u https://example.com` from Ruby:
 
 ```ruby
 require 'gobuster/command'
 
-Gobuster::Command.run(dir: {url: 'https://example.com', wordlist: '/path/to/wordlist.txt'})
+Gobuster::Command.run(wordlist: '/path/to/wordlist.txt', dir: {url: 'https://example.com'})
 ```
 
 ## Requirements
