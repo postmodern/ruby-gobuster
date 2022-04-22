@@ -31,7 +31,7 @@ module Gobuster
     #
     # @param [String, nil] url
     #
-    # @paran [Integer] status
+    # @param [Integer] status
     #
     # @param [Integer] size
     #
