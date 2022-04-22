@@ -1,6 +1,6 @@
 module Gobuster
   #
-  # Represents a HTTP resposne found by `gobuster dir` or `gobuster fuzz`.
+  # Represents a HTTP response found by `gobuster dir` or `gobuster fuzz`.
   #
   class Response
 
