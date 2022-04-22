@@ -35,7 +35,7 @@ Gobuster::Command.run(wordlist: '/path/to/wordlist.txt', dir: {url: 'https://exa
 
 * [ruby] >= 2.0.0
 * [gobuster] >= 3.1.0
-* [command_mapper] ~> 0.2
+* [command_mapper] ~> 0.2, >= 0.2.1
 
 [ruby]: https://www.ruby-lang.org/
 [command_mapper]: https://github.com/postmodern/command_mapper.rb#readme
