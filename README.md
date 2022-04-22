@@ -15,8 +15,11 @@ A Ruby interface to [gobuster], a tool used to bruteforce URIs, DNS, VHosts, S3.
 
 * Provides a [Ruby interface][Gobuster::Command] for running the `gobuster`
   command.
+* Supports [parsing][Gobuster::OutputFile] `gobuster -o ... {dir|dns|fuzz|s3}`
+  output files.
 
 [Gobuster::Command]: https://rubydoc.info/gems/ruby-gobuster/Gobuster/Command
+[Gobuster::OutputFile]: https://rubydoc.info/gems/ruby-gobuster/Gobuster/OutputFile
 
 ## Examples
 

@@ -1,0 +1,5 @@
+http://www.s3.amazonaws.com/
+http://admin.s3.amazonaws.com/
+http://test.s3.amazonaws.com/
+http://downloads.s3.amazonaws.com/
+http://dev.s3.amazonaws.com/
