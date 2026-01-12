@@ -24,4 +24,4 @@ dependencies:
   command_mapper: ~> 0.2, >= 0.2.1
 
 development_dependencies:
-  bundler: ~> 2.0
+  bundler: ">= 2.0.0"
